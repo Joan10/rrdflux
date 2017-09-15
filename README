@@ -1,0 +1,5 @@
+# Description
+Imports RRD files to InfluxDB databases. Can update only last value or dump all RRD to database.
+
+# Examples
+./rrdflux.py -u -f rrds/cpu_ssCpuIdle.rrd -d logs -D mydevice
